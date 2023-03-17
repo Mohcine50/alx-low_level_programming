@@ -11,9 +11,9 @@ int main(void)
 
 	while (c >= 'a')
 	{
-		putch(c);
+		putchar(c);
 		c++;
 	}
-	putch('\n');
+	putchar('\n');
 	return (0);
 }
