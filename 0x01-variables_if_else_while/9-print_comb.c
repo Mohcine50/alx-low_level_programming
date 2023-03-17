@@ -11,15 +11,14 @@ int main(void)
 
 	while (i < 10)
 	{
+		putchar(i + 48);
 		if (i < 9)
 		{
-			putchar(i + 48);
 			putchar(',');
 			putchar(' ');
 		}
-		else
-			putchar(i + 48);
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
