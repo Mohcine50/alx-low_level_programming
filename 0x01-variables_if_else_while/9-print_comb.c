@@ -18,7 +18,7 @@ int main(void)
 			putchar(' ');
 		}
 		else
-			putchar(i);
+			putchar(i + 48);
 		i++;
 	}
 	return (0);
