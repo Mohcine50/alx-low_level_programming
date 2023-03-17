@@ -8,11 +8,13 @@
 int main(void)
 {
 	char c = 97;
-	while(c >= 97 && c <= 122)
+
+	while (c >= 97 && c <= 122)
 	{
 		putchar(c);
 		c++;
 	}
 	printf("\n");
+	
 	return (0);
 }
