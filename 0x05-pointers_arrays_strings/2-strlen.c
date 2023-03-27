@@ -9,6 +9,7 @@ int _strlen(char *s)
 {
 	int sum;
 
+	sum = 0;
 	while(s[sum])
 	{
 		s++;
