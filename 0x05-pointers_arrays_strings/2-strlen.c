@@ -9,9 +9,11 @@ int _strlen(char *s)
 {
 	int sum;
 
-	while(s != '\n')
+	while(*s != '\n')
 	{
-		sum++;
+		if (*s >= 'a' && *s <= 'z' || *s >= 'A' && *s <= 'Z')
+			sum++;
+		s++;
 	}
-	return sum;
+	return (sum);
 }
