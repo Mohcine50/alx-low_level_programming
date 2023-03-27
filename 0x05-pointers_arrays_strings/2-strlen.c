@@ -9,7 +9,7 @@ int _strlen(char *s)
 {
 	int sum;
 
-	while(s != EOF)
+	while(s != '\n')
 	{
 		sum++;
 	}
