@@ -11,7 +11,7 @@ int _strlen(char *s)
 
 	while(*s != '\n')
 	{
-		if (*s >= 'a' && *s <= 'z' || *s >= 'A' && *s <= 'Z')
+		if ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
 			sum++;
 		s++;
 	}
