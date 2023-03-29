@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - Captilizes the string given as parameter
+ * string_toupper - Captilizes the string given as parameter
  * @s: the string
  * Return: the captilized string
  */
