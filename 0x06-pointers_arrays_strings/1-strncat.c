@@ -16,10 +16,11 @@ char *_strncat(char *dest, char *src, int n)
 		ptr++;
 	}
 	
-	while (i < n){
+	while (i < n)
+	{
 		*ptr = src[i];
 		i++;
 	}
 	
-	return dest;
+	return (dest);
 }
