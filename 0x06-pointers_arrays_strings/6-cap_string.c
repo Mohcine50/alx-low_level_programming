@@ -11,7 +11,7 @@ char *cap_string(char *s)
 
 	if (s[0] >= 'a' && s[0] <= 'z')
 	{
-		s[i] += 'A' - 'a';
+		s[i] += 'a' - 'A';
 	}
 	while (s[i] != '\0')
 	{
@@ -24,7 +24,7 @@ char *cap_string(char *s)
 					|| s[i] == '{' || s[i] == '}')
 				&& (s[i + 1] >= 'a' && s[i + 1] <= 'z'))
 		{
-			s[i + 1] += 'A' - 'a';
+			s[i + 1] += 'a' - 'A';
 		}
 		i++;
 	}
