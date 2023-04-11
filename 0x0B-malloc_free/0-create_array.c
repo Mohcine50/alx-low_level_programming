@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * create_array - create and array of charrs
  * @size: size of array
