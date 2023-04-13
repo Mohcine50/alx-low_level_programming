@@ -17,9 +17,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int slen2 = strlen(s2);
 	char *ptr;
 
-	if (!s1)
+	if (s1 == NULL)
 		s1 = "";
-	if (!s2)
+	if (s2 == NULL)
 		s2 = "";
 
 	n = (n >= slen2) ? slen2 : n;
