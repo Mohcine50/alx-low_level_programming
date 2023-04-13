@@ -17,6 +17,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int slen2 = strlen(s2);
 	char *ptr;
 
+	if (!s1)
+		s1 = "";
+	if (!s2)
+		s2 = "";
+
 	n = (n >= slen2) ? slen2 : n;
 	ptr = (char *)malloc(sizeof(char) * (slen1 + n + 1));
 
