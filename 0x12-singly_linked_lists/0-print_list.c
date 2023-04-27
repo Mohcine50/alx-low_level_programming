@@ -2,7 +2,7 @@
 
 /**
  * print_list - print a the element of the list
- * @list_t:the head or starting point for the print
+ * @h:the head or starting point for the print
  * Return: number of the elements
  */
 size_t print_list(const list_t *h)
